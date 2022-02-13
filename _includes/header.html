@@ -45,11 +45,12 @@
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-              {% for item in site.nav_item %}
+              <a class="navbar-brand" href = "mailto: {{ site.email }}">{{ site.email }}</a>
+              <!-- {% for item in site.nav_item %}
                 <li>
                   <a href="{{ item.url }}">{{ item.text }}</a>
                 </li>
-              {% endfor %}
+              {% endfor %} -->
             </ul>
           </div>
       </div>
