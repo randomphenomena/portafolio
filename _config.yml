@@ -15,7 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: "Hello. I'm Carolina Figueroa."
 email: 'carito.figuehe@gmail.com'
-description: "Graphic and Motion designer!"
+description: "Graphic and Motion Designer!"
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://randomphenomena.com" # the base hostname & protocol for your site, e.g. https://example.com
 dribbble_username: 'randomphenomena'
@@ -92,7 +93,7 @@ pagination:
 footer_text: '© 2022 Carolina Figueroa'
 admin_name: 'Carolina Figueroa'
 google_analytics: "UA-9999999-99" # Update with your own tracking ID
-enable_contact: false
+enable_contact: true
 
 #### Phantom Navigation menu
 enable_nav: true
